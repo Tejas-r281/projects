@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.file1{
+    color:chartreuse;
+     margin-right: 20px;
+}
+.file{
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    color: cyan;
+}
+.heading{
+    height: 60px;
+    background-color: rgb(236, 155, 171);
+    position: relative;
+}
+.add:active{
+    transform: scale(0.98);
+}
+.btn-div
+{
+    position: fixed;
+    top: 4rem;
+    right: 7rem;
+    border: none;
+    border-radius: 3px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+button{
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    vertical-align: middle;
+    text-decoration: none;
+    background-color: transparent;
+    padding: 0;
+}
+button.learn-more .circle{
+    transition: all 0.4s cubic-bezier(0.65,0,0.076,1);
+    position: relative;
+    display: block;
+     margin: 0;
+     width: 3rem;
+     height: 3rem;
+     background-color: #f1c12e;
+     border-radius: 1.625rem;
+}
+button.learn-more .circle .icon{
+    transition:  all 0.4s cubic-bezier(0.65,0,0.076,1);
+    position: absolute  ;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: #fff;
+
+     
+}
+button.learn-more .circle .icon.arrow{
+    transition:  all 0.4s cubic-bezier(0.65,0,0.076,1);
+    left: 0.625rem;
+    width: 1.125rem;
+    height: 0.125rem;
+    background: none;
+}
+button.learn-more .circle .icon::before{
+    position: absolute;
+    content: "";
+    top: -0.25rem;
+    right: 0.0625rem;
+    width: 0.625rem;
+    height: 0.625rem;
+    border-top: 0.125rem solid #fff;
+    border-right:0.125rem solid #fff;
+    transform: rotate(45deg);
+}
+button.learn-more .button-text{
+    transition:  all 0.4s cubic-bezier(0.65,0,0.076,1);
+    position: absolute;
+    top: 3px;
+    left: 12px;
+    right: -123px;
+    bottom: 0;
+    font-size: 1.12rem;
+    padding: 0.75rem 0;
+}
+.note{
+    width: 225px;
+    background-color: white;
+    height: 120px;
+    overflow-y: scroll;
+    overflow-x:hidden;
+    margin: 10px 10px 10px 10px;
+    border-radius: 10px;
+    /* padding: 10px; */
+    position: relative;
+}
+.operation{
+    position: absolute;
+    right: 10px;
+}
+.fa-edit, .fa-trash{
+    color: #fff;
+    padding: 10px;
+    background-color: #2ecc71;
+    border-radius: 50%;
+}
+.fa-trash{
+    background-color: #e74c3c;
+}
+.fa-edit:hover{
+    background-color: #fff;
+    color: #27ae60;
+    filter: drop-shadow(0px 10px 8px rgb(219,218,218));
+}
+.fa-trash:hover{
+    background-color: #fff;
+    color: #e74c3c;
+    filter: drop-shadow(0px 10px 8px rgb(219,218,218));
+}
+.main{
+    padding: 20px;
+}
+.hidden{
+    display: none;
+}
+.textarea{
+    outline: none;
+    border: none;
+    padding-top: 40px;
+    font-size: 1.5rem;
+}
+#realcontent{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 6rem;
+    justify-content: space-around;
+}

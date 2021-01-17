@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: #4432e2;
+    display: grid;
+    place-items: center;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    position:absolute;
+    left: 300px;
+    bottom:60px;
+    box-shadow: 0 0 5px 0 black;
+}
+.centerdiv{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-image: linear-gradient(to right , blue ,white ,green);
+}
+.turnon , .turnoff{
+    height:50px;
+    margin: 20px;
+}
+button{
+    width: 200px;
+    border-radius: 10px;
+    outline: none;
+    box-shadow: 0 0 5px 0 black;
+    color: white;
+    background: rgb(228, 222, 222);
+}
